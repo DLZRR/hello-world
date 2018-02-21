@@ -7,7 +7,7 @@ b = np.zeros(shape=(24,62))
 
 for i in range(len(lijst)):
     
-    name = "OUTPUT/" + str(lijst[i]) + "/parameter_outvalues_" + str(lijst[i]) + ".txt"
+    name = "home/roozemond/Desktop/AGNfitter-master/OUTPUT/" + str(lijst[i]) + "/parameter_outvalues_" + str(lijst[i]) + ".txt"
     a = np.loadtxt(name, skiprows = 4)
     
     b[i][0] = i
